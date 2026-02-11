@@ -1,3 +1,7 @@
 pandas
 scikit-learn
+<<<<<<< HEAD
 numpy
+=======
+numpy
+>>>>>>> 83f1f5cfac9f4ad0bcc04d1e97235c3e33745bf6
