@@ -1,0 +1,19 @@
+all: setup download-data preprocess features train evaluate
+
+setup:
+	pip install pandas scikit-learn requests
+
+download-data:
+	python src/download_data.py
+
+preprocess:
+	python src/preprocess.py
+
+features:
+	python src/feature_engineering.py
+
+train:
+	python src/train.py
+
+evaluate:
+	python src/evaluate.py
