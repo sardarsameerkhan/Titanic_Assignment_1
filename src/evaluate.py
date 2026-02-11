@@ -24,7 +24,7 @@ def evaluate():
     os.makedirs('results', exist_ok=True)
     
     with open('results/metrics.txt', 'w') as f:
-        f.write("--- Titanic Model Evaluation ---\n")
+        f.write(" Titanic Model Evaluation \n")
         f.write(f"Overall Accuracy: {acc:.4f}\n\n")
         f.write("Detailed Classification Report:\n")
         f.write(report)
